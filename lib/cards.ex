@@ -9,4 +9,8 @@ defmodule Cards do
     end
   end
 
+  def shuffle(deck) do
+    Enum.shuffle(deck)
+  end
+
 end
